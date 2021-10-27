@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="my_text_14_black">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="my_text_13_black">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="my_text_13_black_bold">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="my_text_12_black">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTabLayoutUpper" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabPaddingStart">2dp</item>
+        <item name="tabPaddingEnd">2dp</item>
+        <item name="tabBackground">@color/blue3</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearanceUpper</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTabTextAppearanceUpper" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/blue1</item>
+        <item name="textAllCaps">false</item>
+        <item name="maxLines">2</item>
+    </style>
+
+    <style name="AppTabLayoutLower" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">?attr/colorPrimary</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabPaddingStart">6dp</item>
+        <item name="tabPaddingEnd">6dp</item>
+        <item name="tabBackground">@color/orangenice</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearanceLower</item>
+        <item name="tabSelectedTextColor">@color/blue3</item>
+    </style>
+
+    <style name="AppTabTextAppearanceLower" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>
